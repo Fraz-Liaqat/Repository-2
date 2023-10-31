@@ -1,0 +1,24 @@
+.Mypic{
+    width: 150px;
+    height: 150px;
+    align-content: center;
+    border-radius: 50%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: red;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.round-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
